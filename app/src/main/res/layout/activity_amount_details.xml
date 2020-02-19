@@ -1,0 +1,42 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgcolor">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="TOTAL AMOUNT"
+        android:id="@+id/totalamount"
+        android:textColorHint="#ffffff"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="SELECT CUSTOMER"
+        android:id="@+id/selectcustomer"
+        android:textColorHint="#ffffff"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="AMOUNT"
+        android:id="@+id/amount"
+        android:inputType="number"
+        android:textColorHint="#ffffff"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BALANCE TO GET"
+        android:id="@+id/balanceget"
+        android:inputType="number"
+        android:textColorHint="#ffffff"/>
+     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="BALANCE TO GIVE"
+        android:id="@+id/balancegive"
+        android:inputType="number"
+        android:textColorHint="#ffffff"/>
+
+
+</LinearLayout>

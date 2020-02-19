@@ -1,0 +1,43 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgcolor">
+
+    <EditText
+         android:id="@+id/username"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:hint="USER NAME"
+         android:textColorHint="#ffffff" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        android:textColorHint="#ffffff"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgcolor"
+         android:textColor="#ffffff"
+        android:id="@+id/button1"
+        android:text="LOGIN"/>
+
+    <Button
+
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgcolor"
+        android:text="New User?click"
+        android:textColor="#ffffff" />
+
+
+
+
+</LinearLayout>

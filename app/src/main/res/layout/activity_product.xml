@@ -1,0 +1,29 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bgcolor">
+
+    <Button
+        android:id="@+id/addproducts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD PRODUCTS" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vieworder"
+        android:text="VIEW ORDER"/>
+ <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderlist"
+        android:text="ORDER LIST"/>
+<Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/abouttransaction"
+        android:text="ABOUT TRANSACTION"/>
+</LinearLayout>
